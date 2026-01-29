@@ -45,7 +45,7 @@ export interface About {
 
 export interface AboutItem {
   label: string;
-  text: string;
+  text: string | React.ReactNode;
   Icon?: ForwardRefExoticComponent<Omit<SVGProps<SVGSVGElement>, 'ref'>>;
 }
 
@@ -63,7 +63,7 @@ export interface Stat {
  */
 
 export interface Skill {
-  name: string;
+  name: string | React.ReactNode;
   level: number;
   max?: number;
 }

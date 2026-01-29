@@ -1,8 +1,9 @@
 import {FC, memo} from 'react';
 
-import {TimelineItem} from '../../../data/dataDef';
+// Agregamos 'type' para que TypeScript sepa que esto es solo una definición de datos
+import type {TimelineItem as TimelineItemType} from '../../../data/dataDef';
 
-const TimelineItem: FC<{item: TimelineItem}> = memo(({item}) => {
+const TimelineItem: FC<{item: TimelineItemType}> = memo(({item}) => {
   const {title, date, location, content} = item;
   return (
     <div className="flex flex-col pb-8 text-center last:pb-0 md:text-left">
