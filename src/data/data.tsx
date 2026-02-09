@@ -66,7 +66,7 @@ export const homePageMeta: HomepageMeta = {
  */
 export const SectionId = {
   Hero: 'hero',
-  About: 'sobre mí',
+  About: 'perfil',
   Contact: 'contacto',
   Portfolio: 'portfolio',
   Resume: 'resumen',
