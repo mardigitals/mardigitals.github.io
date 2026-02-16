@@ -145,7 +145,7 @@ const StatusDot = () => (
 
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Soy Técnico Superior en Programación, egresado de la UTN | Facultad Regional Rafaela en 2026. 
+  description: `Soy Técnico Universitario en Programación, egresado de la UTN | Facultad Regional Rafaela en 2026. 
   Me considero un apasionado por el desarrollo de software, la tecnología y la optimización de procesos.
   Mi lugar favorito en el mundo es el MAR, donde puedo desconectar y encontrar inspiración.`,
 
@@ -170,8 +170,10 @@ export const aboutData: About = {
       text: (
         <div className="flex items-start gap-x-2 pt-1">
           <StatusDot />
-          <p className="text-sm leading-tight text-neutral-100 font-bold">
-            Software, buceo y automovilismo.
+          <p className="text-sm leading-tight">
+            <span className="font-bold text-neutral-100">Software, buceo y automovilismo.</span>
+            <br />
+            <span className="text-xs italic text-neutral-400">Me gusta viajar y conocer nuevas culturas</span>
           </p>
         </div>
       ),
@@ -184,7 +186,7 @@ export const aboutData: About = {
         <div className="flex items-start gap-x-2 pt-1">
           <StatusDot />
           <p className="text-sm leading-tight">
-            <span className="font-bold text-neutral-100"> Técnico Sup. en Programación</span>
+            <span className="font-bold text-neutral-100"> Técnico Univ. en Programación</span>
             <br />
             <span className="text-xs italic text-neutral-400"> UTN Facultad Regional Rafaela (2026).</span>
           </p>
@@ -209,20 +211,21 @@ export const aboutData: About = {
           <div className="flex items-start gap-x-2">
             <StatusDot />
             <p className="text-sm leading-tight">
-              <span className="font-bold text-neutral-100">Tech E-commerce</span>
+              <span className="font-bold text-neutral-100">Gerente del Autódromo “Ciudad de Rafaela”</span>
               <br />
-              <span className="text-xs italic text-neutral-400">Tienda Mar Digitals · Mercado Libre</span>
+              <span className="text-xs italic text-neutral-400">Automovilismo · Atlético de Rafaela</span>
             </p>
           </div>
 
           <div className="flex items-start gap-x-2">
             <StatusDot />
             <p className="text-sm leading-tight">
-              <span className="font-bold text-neutral-100">Gerente</span>
+              <span className="font-bold text-neutral-100">Tech E-commerce</span>
               <br />
-              <span className="text-xs italic text-neutral-400">Autódromo “Ciudad de Rafaela”</span>
+              <span className="text-xs italic text-neutral-400">Tienda Mar Digitals · Mercado Libre</span>
             </p>
           </div>
+
         </div>
       ),
       Icon: BuildingOffice2Icon,
