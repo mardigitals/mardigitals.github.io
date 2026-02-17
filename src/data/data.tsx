@@ -436,7 +436,8 @@ export const testimonial: TestimonialSection = {
     },
     {
       name: 'Comisión Atlético de Rafaela',
-      text: 'Como creador y desarrollador del proyecto Óvalo Fans, Mario demostró una visión estratégica excepcional. Logró digitalizar y fidelizar una comunidad de fans que no conocíamos, con una solución creativa que superó nuestras expectativas.',
+      text: 'Como creador de la idea y actual desarrollador del proyecto Óvalo Fans, Mario demostró una visión estratégica excepcional. Pensó como digitalizar y fidelizar una comunidad de fans que no conocíamos, presentando una solución creativa que ya se encuentra en proceso de construcción, esperando ver los resultados en forma exitosa.',
+      // text: 'Como creador y desarrollador del proyecto Óvalo Fans, Mario demostró una visión estratégica excepcional. Logró digitalizar y fidelizar una comunidad de fans que no conocíamos, con una solución creativa que superó nuestras expectativas.',
       image: '/autodromo-rafaela-logo.png',
     }
   ],

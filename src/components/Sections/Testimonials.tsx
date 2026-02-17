@@ -62,7 +62,7 @@ const Testimonials: FC = memo(() => {
     setScrollValue(event.currentTarget.scrollLeft);
   }, []);
 
-  useInterval(next, 7000);
+  useInterval(next, 9000);
 
   if (!testimonials.length) {
     return null;
