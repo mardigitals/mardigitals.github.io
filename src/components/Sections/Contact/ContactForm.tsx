@@ -32,8 +32,8 @@ const ContactForm: FC = memo(() => {
       event.preventDefault();
       setStatus('Enviando...');
 
-      // Reemplaza esto con tu endpoint de Formspree o usa Netlify
-      const response = await fetch('https://formspree.io/f/TU_ID_DE_FORMSPREE', {
+      //endpoint de Formspree
+      const response = await fetch('https://formspree.io/f/meelkdga', {
         method: 'POST',
         body: JSON.stringify(data),
         headers: {
@@ -82,13 +82,13 @@ const ContactForm: FC = memo(() => {
         name="message"
         onChange={onChange}
         value={data.message}
-        placeholder="Escribe un mensaje para Mario..."
+        placeholder="Escribe tu consulta para Mario..."
         required
         rows={6}
       />
       <div className="flex items-center gap-x-4">
         <button
-          aria-label="Ponerse en contacto con Mario Ricotti"
+          aria-label="Ponerse en contacto con Mario Ricotti de MAR Digitals"
           className="w-max rounded-full border-2 border-cyan-500 bg-stone-900 px-4 py-2 text-sm font-medium text-white shadow-md outline-none hover:bg-stone-800 focus:ring-2 focus:ring-cyan-500 focus:ring-offset-2 focus:ring-offset-stone-800"
           type="submit">
           Enviar mensaje
