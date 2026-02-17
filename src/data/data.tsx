@@ -453,8 +453,8 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'maritoricotti@gmail.com',
-      href: 'mailto:maritoricotti@gmail.com',
+      text: 'mardigitals.arg@gmail.com',
+      href: 'mailto:mardigitals.arg@gmail.com',
     },
     {
       type: ContactType.Location,
